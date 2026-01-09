@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "D D",
+    " W ",
+    "D D"
+  ],
+  "key": {
+    "D": "minecraft:glowstone_dust",
+    "W": {
+      "fabric:type": "fabric:components",
+      "base": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:water"
+        }
+      }
+    }
+  },
+  "result": {
+    "id": "bottledlight:bottled_light",
+    "count": 1
+  }
+}

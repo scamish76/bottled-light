@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "bottledlight:block/bottled_light_block" }
+  }
+}

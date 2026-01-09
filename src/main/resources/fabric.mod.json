@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bottledlight",
+  "version": "1.0.0",
+  "name": "Bottled Light",
+  "description": "Create invisible light sources using bottled light",
+  "authors": ["TechMonkey"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+"entrypoints": {
+  "main": ["com.techmonkey.bottledlight.BottledLight"],
+  "client": ["com.techmonkey.bottledlight.BottledLightClient"]
+},
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.10",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
